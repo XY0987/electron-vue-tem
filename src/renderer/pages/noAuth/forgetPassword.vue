@@ -22,7 +22,7 @@
           <el-button type="primary" @click="changePassword">修改密码</el-button>
         </div>
         <div class="toreg">
-          <el-button type="primary" link @click="pageJump('/login')"> 已有账号？登录 </el-button>
+          <el-button type="primary" link @click="pageJump('/')"> 已有账号？登录 </el-button>
           <el-button type="primary" link @click="pageJump('/register')">
             还没有账号？注册
           </el-button>
